@@ -1,0 +1,18 @@
+{
+    "presets": [
+		"@babel/preset-react"
+	],
+	"plugins": [
+		[
+		  "file-loader",
+		  {
+			"name": "[hash].[ext]",
+			"extensions": ["png", "jpg", "jpeg", "gif", "svg", "woff"],
+			"publicPath": "./functions/cyclopt/assets",
+			"outputPath": "./functions/cyclopt/assets",
+			"context": "",
+			"limit": 0
+		  }
+		]
+	  ]
+}
